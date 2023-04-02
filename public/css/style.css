@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Playfair+Display&display=swap');
+body{
+    background-color: #E5D9B6 !important;
+    font-family: 'Inter', sans-serif !important;
+}
+h1,h2,h3,h4,h5,h6{
+   font-family: 'Playfair Display', serif;
+}
+
+a {
+    transition: all 0.3s;
+}
+.navbar-nav a:hover {
+    cursor: pointer;
+    border-bottom: #285430 solid 3px;
+    margin-bottom: -3px;
+}
+.navbar-brand {
+    color: #285430 !important;
+    font-family: 'Playfair Display';
+    font-size: 25px !important;
+}
+.navbar-nav .active{
+    border-bottom: #285430 solid 3px;   
+}
+.hero-section{
+    background: url("../images/shirt-mockup-concept-with-plain-clothing_1.png") no-repeat;
+    height: 100vh;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+.btn-dark-green{
+    background-color: #285430;
+    color: white;
+    text-transform: uppercase;
+    border: none;
+    padding: 10px 20px;
+}
+
