@@ -39,11 +39,9 @@
                     {{-- Center of Navbar --}}
                     <ul class="navbar-nav gap-5">
                         <li class="nav-item">
-                            <a class="nav-link">Home</a>
+                            <a class="nav-link {{request()->is('/') ? 'active' : ''}}" href="/">Home</a>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link">Shop</a>
-                        </li>
+                        <li class="nav-item "><a href="/shop" class="nav-link {{request()->is('shop') ? 'active' : ''}}">Shop</a></li>
                         <li class="nav-item">
                             <a class="nav-link">Contact</a>
                         </li>
